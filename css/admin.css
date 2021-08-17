@@ -1,0 +1,147 @@
+/*
+    Author: Adarsh;
+    Theme: Food Order Website Admin;
+    Version:1.0;
+*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*'clearfix' will stop the mixing of four categories with the footer*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*Applying CSS to tables*/
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom:1px solid black ;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.tbl-30{
+    width: 50%;
+}
+
+.btn-primary{
+    background-color:#1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color:#7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color:#ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color: #2ed573;
+}
+
+.error{
+    color: #ff4757;
+}
+
+/*CSS for Menu*/
+.menu{
+    border-bottom:1px solid grey;
+}
+
+/*'.menu ul' removes default asterik mark of 'li'-list of html*/
+.menu ul{
+    list-style-type: none;
+}
+
+/*'.menu ul li' makes default vertical description of items to horizontal*/
+.menu ul li{
+    display: inline-block;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/*CSS for Main Content*/
+.main-content{
+    
+    background-color: #f1f2f6;
+    padding: 2% 0;
+
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*CSS for footer*/
+.footer{
+    background-color: #ff4757;
+    color: white;
+
+}
+
+/*CSS for Login*/
+.login{
+    width: 20%;/*width defines the area of the content-100% means total of the screen*/
+    border: 1px solid grey;/*draws border around the class applied to*/
+    margin: 10% auto;/*margin places space aroung the content(the spacing will be outside the content);first part is for top and bottom of the content, and auto applies to the left and right of the content, bringing the content in the center*/
+    padding: 2%;/*padding creates spaces around the content, just as pads do, and the border of the content defined by order */
+}
